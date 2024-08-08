@@ -536,7 +536,7 @@ footer {
     padding-left: 5px;
     grid-column: 1/span 2;
   }
-
+}
 @media screen and (max-width : 376px) {
     .inner-box-2{
         top: 70px;
