@@ -167,7 +167,7 @@ section {
 }
 /* part 2 container css */
 .container-of-run {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(33, 34, 33);
     border-radius: 18px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -275,7 +275,7 @@ input[list="i-list"]{
     transition: background-color ease-in 1s,transform 1s;
 }
 .rules-card:hover {
-    background-color: #616a6b ;
+    background-color: #3b4242 ;
     transform: scale(1.1); 
 }
 .rules p{
