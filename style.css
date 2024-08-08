@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+}
+/* primary section css */
+.display-flex {
+    display: flex;
+}
+.gray-color-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+.text {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.primary-btn {
+    background-color: rgb(230, 83, 60);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: none;
+}
+.similar-text {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+}
+.primary-text {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700px;
+}
+.row-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+}
+.max-width{
+    max-width: 1100px;
+    margin: 0 auto;
+    color: white;
+}
+/* Primary section end */
+.nav-parent {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav-title h3 {
+    margin: 0px;
+}
+.nav-list {
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    border-radius: 39px;
+    padding: 15px 4px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+.ham-bars {
+    color: aliceblue;
+    display: none;
+}
+.main-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 50px;
+    color: white;
+}
+.text-container {
+    width: 50%;
+}
+.banner-text {
+    font-weight: 900;
+    font-size: 78px;
+    line-height: .8em;
+    color: white;
+}
+.italik{
+    font-family: 'Miama';
+    margin: 0px;
+    font-weight: 400;
+    font-size: 78px;
+    font-weight: 400;
+}
+.text-container {
+    color: white;
+}
+.img-container img{
+    margin-left: 100px;
+}
+.img-container {
+    width: 40%;
+    justify-content: center;
+    position: relative;
+}
+.circle {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.circle-text{
+    margin-left: 20px;
+}
+.digit{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+.inner-box-parent {
+    background-color: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    gap: 30px;
+    padding: 10px 24px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 90px;
+    max-width: 160px;
+}
+.inner-box-2{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 24px;
+    border-radius: 15px;
+    position: absolute;
+    top: 130px;
+    right: -80px;
+}
+/* header banner section */
+.extra-btn {
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+   border: 1px solid rgb(255, 255, 255);
+}
+/* part 1 container css */
+section {
+    margin-top: 50px;
+}
+.habit-text-container {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.habit-text {
+    font-size: 2.5rem;
+}
+.image-card img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.habit-images-container {
+    text-align: center;
+}
+/* part 2 container css */
+.container-of-run {
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.run-container-text {
+    margin: 0px;
+    width: 40%;
+    padding: 50px;
+}
+.run-container-image {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.run-container-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* part 3 css table Css start */
+.bmi{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.table-container{
+    background-color:rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.BMI-CALCULETOR{
+    padding: 50px 0px;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.BMI-CALCULETOR caption{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.calculate-ur-BMI h3{
+    color: white;
+    font-size: 2rem;
+}
+.calculate-ur-BMI{
+    max-width: 80%;
+}
+table {
+    border-collapse: collapse;
+}
+td ,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 10px ;
+    font-size: large;
+}
+th{
+    font-size: 22px;
+    color: white;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+option{
+    width: 100px;
+    padding: 80px 40px;
+}
+input[type="text"]{
+    margin: 10px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+input[list="Gender"]{
+    margin: 0px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+input[list="i-list"]{
+    margin: 0px 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 350px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* part 4 rules and reguletion */
+.rules-card-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.rules-card{
+    border: 1px solid rgba(108, 99, 99, 0.796);
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.529);
+    transition: background-color ease-in 1s,transform 1s;
+}
+.rules-card:hover {
+    background-color: #616a6b ;
+    transform: scale(1.1); 
+}
+.rules p{
+    text-align: justify;
+    padding: 10px;
+}
+.rules-card h3{
+    color: white;
+    text-align: center;
+}
+.rules-card p {
+    text-align: justify;
+    padding: 0px 10px;
+}
+.rules-card img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+/* Part 5 container meet our team css start */
+.header-text,.rules{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: brightness(70%);
+}
+.images-of-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.grid-image{
+    position: relative;
+}
+.image-inner-text{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+/* footer section css start */
+footer {
+    background-color: rgb(34, 34, 34);
+    margin-top: 88px;
+    padding-bottom: 50px;
+}
+.row-1 h3 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+}
+.row-1 {
+    max-width: 80%;
+}
+.footer-parent {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+    padding: 30px;
+}
+.last-section h3{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+#hr-element{
+    width: 90%;
+}
+
+/* resposible website in mobile*/
+@media screen and (max-width : 576px) {
+    header {
+        padding: 0px 10px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .ham-bars {
+        display: block;
+    }
+    .img-container img{
+        margin: 0;
+    }
+    .text-container,
+    .img-container {
+        width: 100%;
+    }
+    .banner-text {
+        font-size: 1rem;
+    }
+    .extra-btn {
+        margin-left: 40px;
+    }
+    .inner-box-parent{
+        margin-bottom: 130px;
+        gap: 10px;
+        padding: 10px;
+    }
+    .inner-box-2{
+        top: 70px;
+        right: -15px;
+        padding: 5px 10px;
+    }
+    .image-parent-card,
+    .img-container,
+    .main-container,
+    .container-of-run {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    /* Part 1 of css media */
+    .habit-text-container{
+        width: 90%;
+    }
+    .italik{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .habit-text{
+        font-size: 1.5rem;
+    }
+    .card-text p {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    /* Part 2 of css media */
+    .similar-text{
+        font-size: 1.5rem;
+    }
+    .run-container-text,
+    .run-container-image {
+        margin: 10px auto;
+        margin-top: 5px;
+        width: 80%;
+        padding: 0px;
+    }
+    .run-container-text{
+        width: 90%;
+    }
+    .run-container-image {
+        padding: 0px;
+    }
+    .run-container-text .primary-btn{
+        width: 300px;
+        padding: 13px;
+    }
+    /* Part 3/5 of css */
+    .images-of-grid ,
+    .table-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .table-container{
+        padding: 10px;
+    }
+    .images-of-grid img{
+        width: 100%;
+        height: 100%;
+    }
+    .header-text{
+        width: 80%;
+    }
+    /* rules css part 4 */
+    .rules-card-container{
+        grid-template-columns: repeat(1,1fr);
+        max-width: 100%;
+        padding: 0 40px;
+        grid-template-rows: repeat(4,320px);
+    }
+    .rules{
+        width: 100%;
+    }
+    /* part 5 BMI calculetor  */
+    caption{
+        text-align: start;
+    }
+    .BMI-CALCULETOR{
+        padding: 0PX;
+        margin: 0px;
+    }
+    .bmi{
+        max-width: 100%;
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+    table{
+       margin-left: 0px;
+    }
+    .calculate-ur-BMI{
+        padding-left: 30px;
+    }
+    input[type="text"]{
+        width: 110px;
+        margin: 5px 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    input[list="Gender"]{
+        width: 110px;
+        margin: 5px 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    input[list="i-list"]{
+        margin: 0px 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        width: 200px;
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    /* footer section */
+    .footer-parent {
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        gap: 0 ;
+        padding: 20px;
+    }
+    .last-section{
+        display: block;
+    }
+}
+@media screen and (max-width : 376px) {
+    .inner-box-2{
+        top: 70px;
+        right: 5px;
+        padding: 10px;
+        width: 120px;
+    }
+    .inner-box-2 .gray-color-text{
+        padding: 0px;
+        font-size: 10px;
+    }
+    .digit{
+        font-size: medium;
+        padding: 10px 0px 0px 5px;
+    }
+}
