@@ -517,11 +517,21 @@ footer {
     .main-container{
         flex-direction: column;
     }
-   .image-parent-card,
-   .rules-card-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   }
+input[type="text"]{
+    margin: 5px 0px;
+    padding: 10px;
+    width: 120px;
+}
+input[list="Gender"]{
+    margin: 5px 0px;
+    width: 120px;
+}
+input[list="i-list"]{
+    margin: 0px 0px;
+    padding: 10px;
+    width: 260px;
+    margin-bottom: 10px;
+}
    footer{
     margin-top: 0px;
     padding-bottom: 10px;
