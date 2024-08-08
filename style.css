@@ -513,6 +513,30 @@ footer {
         display: block;
     }
 }
+@media screen and (max-width : 768px) {
+    .main-container{
+        flex-direction: column;
+    }
+   .image-parent-card,
+   .rules-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   footer{
+    margin-top: 0px;
+    padding-bottom: 10px;
+   }
+.footer-parent{
+    display: grid;
+    gap: 0px;
+    padding: 5px;
+    grid-template-columns: repeat(2,1fr);
+    }
+  .row-1{
+    padding-left: 5px;
+    grid-column: 1/span 2;
+  }
+
 @media screen and (max-width : 376px) {
     .inner-box-2{
         top: 70px;
