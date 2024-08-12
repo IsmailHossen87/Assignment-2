@@ -21,7 +21,6 @@ body {
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
-
 .primary-btn {
     background-color: rgb(230, 83, 60);
     color: white;
@@ -30,59 +29,48 @@ body {
     font-size: 1rem;
     border: none;
 }
-
 .similar-text {
     font-size: 2.5rem;
     font-weight: 900;
     color: white;
 }
-
 .primary-text {
     font-size: 2rem;
     color: white;
     font-weight: 700px;
 }
-
 .row-text {
     color: rgba(255, 255, 255, 0.5);
     font-size: 23px;
 }
-
 .max-width {
     max-width: 1100px;
     margin: 0 auto;
     color: white;
 }
-
 /* Primary section end */
-
 .nav-parent {
     justify-content: space-between;
     margin-top: 30px;
 }
-
 .nav-title h3 {
     margin: 0px;
 }
-
 .nav-list {
     list-style: none;
     border: 1px solid rgba(255, 255, 255, 0.285);
     border-radius: 39px;
     padding: 15px 4px;
 }
-
 .nav-list a {
     text-decoration: none;
     color: white;
     margin-right: 40px;
 }
-
 .ham-bars {
     color: aliceblue;
     display: none;
 }
-
 .main-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -90,18 +78,15 @@ body {
     gap: 50px;
     color: white;
 }
-
 .text-container {
     width: 50%;
 }
-
 .banner-text {
     font-weight: 900;
     font-size: 78px;
     line-height: .8em;
     color: white;
 }
-
 .italik {
     font-family: 'Miama';
     margin: 0px;
@@ -109,21 +94,17 @@ body {
     font-size: 78px;
     font-weight: 400;
 }
-
 .text-container {
     color: white;
 }
-
 .img-container img {
     margin-left: 100px;
 }
-
 .img-container {
     width: 40%;
     justify-content: center;
     position: relative;
 }
-
 .circle {
     background-color: red;
     width: 40px;
@@ -451,8 +432,9 @@ footer {
     }
     .inner-box-2 {
         top: 70px;
-        right: -15px;
-        padding: 5px 10px;
+        right: 15px;
+        padding: 10px;
+        width: 150px;
     }
     .image-parent-card,
     .img-container,
@@ -547,7 +529,7 @@ footer {
         padding-left: 30px;
     }
     input[type="text"] {
-        width: 110px;
+        width: 90px;
         margin: 5px 5px;
         padding: 10px;
         border: none;
@@ -555,7 +537,7 @@ footer {
         background-color: rgba(255, 255, 255, 0.1);
     }
     input[list="Gender"] {
-        width: 110px;
+        width: 90px;
         margin: 5px 5px;
         padding: 10px;
         border: none;
@@ -567,7 +549,7 @@ footer {
         padding: 10px;
         border: none;
         border-radius: 6px;
-        width: 200px;
+        width: 215px;
         margin-bottom: 10px;
         background-color: rgba(255, 255, 255, 0.1);
     }
@@ -578,7 +560,6 @@ footer {
         gap: 0;
         padding: 20px;
     }
-
     .last-section {
         display: block;
     }
@@ -649,19 +630,18 @@ footer {
     }
 }
 
-@media screen and (max-width : 376px) {
+@media screen and (max-width : 376px) { 
+    
     .inner-box-2 {
-        top: 70px;
-        right: 5px;
-        padding: 10px;
-        width: 120px;
+    top: 70px;
+    right: 5px;
+    padding: 10px;
+    width: 110px;
     }
-
     .inner-box-2 .gray-color-text {
         padding: 0px;
         font-size: 10px;
     }
-
     .digit {
         font-size: medium;
         padding: 10px 0px 0px 5px;
