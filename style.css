@@ -15,7 +15,6 @@ body {
 .gray-color-text {
     color: rgba(255, 255, 255, 0.5);
 }
-
 .text {
     font-size: 2rem;
     font-weight: 800;
@@ -83,7 +82,7 @@ body {
 }
 .banner-text {
     font-weight: 900;
-    font-size: 78px;
+    font-size: 3rem;
     line-height: .8em;
     color: white;
 }
@@ -107,22 +106,22 @@ body {
 }
 .circle {
     background-color: red;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
     border-radius: 50%;
 }
-
+.primary-btn-2{
+    display: none;
+}
 .circle-text {
     margin-left: 20px;
 }
-
 .digit {
     color: white;
     font-size: 24px;
     font-weight: 900;
     margin: 0;
 }
-
 .inner-box-parent {
     background-color: rgba(48, 48, 48, 0.54);
     align-items: center;
@@ -133,7 +132,6 @@ body {
     bottom: 90px;
     max-width: 160px;
 }
-
 .inner-box-2 {
     background: rgba(255, 255, 255, 0.1);
     padding: 10px 24px;
@@ -420,7 +418,7 @@ footer {
         width: 100%;
     }
     .banner-text {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .extra-btn {
         margin-left: 40px;
@@ -429,6 +427,18 @@ footer {
         margin-bottom: 130px;
         gap: 10px;
         padding: 10px;
+    }
+    .primary-btn-1{
+        display: none;
+    }
+    .primary-btn-2{
+        display: block;
+    }
+    .btn-parent{
+        display: flex;
+    }
+    .circle {
+        width: 50px;
     }
     .inner-box-2 {
         top: 70px;
@@ -524,7 +534,9 @@ footer {
     table {
         margin-left: 0px;
     }
-
+    .meet-our-team{
+        display: none;
+    }
     .calculate-ur-BMI {
         padding-left: 30px;
     }
@@ -564,13 +576,11 @@ footer {
         display: block;
     }
 }
-
 @media screen and (min-width : 577px) and (max-width : 768px) {
     .main-container {
         flex-direction: column;
         margin-left: 120px;
     }
-
     .banner-text {
         font-size: 40px;
     }
@@ -599,7 +609,6 @@ footer {
         margin: 5px 0px;
         width: 120px;
     }
-
     input[list="i-list"] {
         margin: 0px 0px;
         padding: 10px;
